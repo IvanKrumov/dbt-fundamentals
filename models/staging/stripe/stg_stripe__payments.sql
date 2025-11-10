@@ -3,7 +3,7 @@ select
     orderid as order_id,
     paymentmethod as peyment_method,
     status,
-
+    _batched_at,
     -- amount is stored in cents, convert it to dollars
     amount / 100 as amount,
     created as created_at
