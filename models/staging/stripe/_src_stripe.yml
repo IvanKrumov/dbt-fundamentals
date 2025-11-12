@@ -1,5 +1,6 @@
 sources:
   - name: stripe
+    description: Raw payment data.
     database: jaffle-shop-476509 # in BigQuery we use the project id instead the database in Snowflake
     schema: stripe
     tables:
